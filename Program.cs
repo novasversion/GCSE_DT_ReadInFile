@@ -34,7 +34,7 @@ namespace ReadInFile
         static void readInFile()
         {
             string[] rawData = new string[3];
-            rawData = File.ReadAllLines(filePath);
+            rawData = File.ReadAllLines(filePath); 
 
             string[] tempUser = new string[8];
             for(int i=0;i<3;i++)
